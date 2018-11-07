@@ -1,0 +1,24 @@
+{
+  "name": "redux-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "esm": "^3.0.84",
+    "prettier": "^1.15.1"
+  },
+  "scripts": {
+    "lint": "node_modules/.bin/eslint examples --color --ignore-path .gitignore",
+    "lint:fix": "node_modules/.bin/eslint --fix examples --color --ignore-path .gitignore .",
+    "esm": "node -r esm",
+    "example01": "node -r esm -- examples/01/index.js",
+    "example02": "node -r esm -- examples/02/index.js"
+  }
+}
