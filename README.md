@@ -21,4 +21,5 @@ Until the moment there are just two examples.
 | --|------------------|---------------------------------------------------|
 | [01](https://github.com/ricardocanelas/redux-examples/tree/master/examples/01) | `yarn example01` | It's the first example of the [documentation](https://github.com/reduxjs/redux) |
 | [02](https://github.com/ricardocanelas/redux-examples/tree/master/examples/02) | `yarn example02` | A simple way to structure the project. |
+| [03](https://github.com/ricardocanelas/redux-examples/tree/master/examples/03) | `yarn example03` | Using redux-thunk |
 
