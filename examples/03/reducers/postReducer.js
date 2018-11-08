@@ -4,7 +4,7 @@ const initialState = {
     data: [],
 }
 
-const bookReducer = (state = initialState, action) => {
+const postReducer = (state = initialState, action) => {
     console.log('\nAction:', action.type)
 
     switch (action.type) {
@@ -33,4 +33,4 @@ const bookReducer = (state = initialState, action) => {
     }
 }
 
-export default bookReducer
+export default postReducer
