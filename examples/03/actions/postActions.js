@@ -1,7 +1,11 @@
 import API from '../api'
 
 export const fetchPosts = () => {
-    return (dispatch) => {
+    return (dispatch, getState) => {
+        // If you want, you can get the store
+        // console.log(getState().posts.data)
+        // https://github.com/reduxjs/redux-thunk#motivation
+
         dispatch({ type: 'FETCH_POSTS_REQUEST' }) // <---------- dispatch
 
         return API.getPosts()
