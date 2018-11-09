@@ -1,6 +1,6 @@
 # Redux Examples
 
-Until the moment there are just two examples.
+Simple examples using Redux without Reactjs.
 
 ## 👉🏻 Prerequisites
 
@@ -20,6 +20,6 @@ Until the moment there are just two examples.
 | - | run              | description                                       |
 | --|------------------|---------------------------------------------------|
 | [01](https://github.com/ricardocanelas/redux-examples/tree/master/examples/01) | `yarn example01` | It's the first example of the [documentation](https://github.com/reduxjs/redux) |
-| [02](https://github.com/ricardocanelas/redux-examples/tree/master/examples/02) | `yarn example02` | A simple way to structure the project. |
+| [02](https://github.com/ricardocanelas/redux-examples/tree/master/examples/02) | `yarn example02` | A simple way to structure a project. |
 | [03](https://github.com/ricardocanelas/redux-examples/tree/master/examples/03) | `yarn example03` | Using redux-thunk |
-
+| [04](https://github.com/ricardocanelas/redux-examples/tree/master/examples/04) | `yarn example04` | Using redux-saga |
