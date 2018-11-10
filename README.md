@@ -6,7 +6,7 @@ Simple examples using Redux without Reactjs.
 
 * Git
 * Node
-* NPM
+* NPM / Yarn
 
 ## 👉🏻 Installing
 
@@ -23,3 +23,4 @@ Simple examples using Redux without Reactjs.
 | [02](https://github.com/ricardocanelas/redux-examples/tree/master/examples/02) | `yarn example02` | A simple way to structure a project. |
 | [03](https://github.com/ricardocanelas/redux-examples/tree/master/examples/03) | `yarn example03` | Using redux-thunk |
 | [04](https://github.com/ricardocanelas/redux-examples/tree/master/examples/04) | `yarn example04` | Using redux-saga |
+| [05](https://github.com/ricardocanelas/redux-examples/tree/master/examples/05) | `yarn example05` | Using reselect |
