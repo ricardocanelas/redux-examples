@@ -9,7 +9,7 @@ const initialState = {
         { id: '007', name: 'Book-E-Year-1980', year: 1980 },
     ],
     filter: {
-        year: 2016
+        year: 2016,
     },
     store_name: 'Mega Book Store',
     store_address: '5th Ave, New York, NY',
@@ -22,8 +22,8 @@ const bookReducer = (state = initialState, action) => {
                 ...state,
                 filter: {
                     ...state.filter,
-                    year: action.payload
-                }
+                    year: action.payload,
+                },
             }
 
         default:
