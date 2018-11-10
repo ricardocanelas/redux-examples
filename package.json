@@ -1,14 +1,15 @@
 {
-  "name": "redux-example",
+  "name": "redux-examples",
   "version": "1.0.0",
-  "main": "index.js",
+  "author": "Ricardo Canelas",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
     "babel-eslint": "^10.0.1",
     "redux": "^4.0.1",
     "redux-saga": "^0.16.2",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0"
   },
   "devDependencies": {
     "eslint": "^5.8.0",
@@ -24,6 +25,7 @@
     "example01": "node -r esm -- examples/01/index.js",
     "example02": "node -r esm -- examples/02/index.js",
     "example03": "node -r esm -- examples/03/index.js",
-    "example04": "node -r esm -- examples/04/index.js"
+    "example04": "node -r esm -- examples/04/index.js",
+    "example05": "node -r esm -- examples/05/index.js"
   }
 }
