@@ -1,6 +1,6 @@
 import { createStore, combineReducers } from 'redux'
 import bookReducer from './reducers/bookReducer'
-import { getPostByYear } from './selectors/bookSelector'
+import { getBookByYear } from './selectors/bookSelector'
 import { filterByYear } from './actions/bookActions'
 
 const reducers = combineReducers({
@@ -13,8 +13,8 @@ store.subscribe(() => {
     console.log('\n=====================================')
 
     // compute derived data
-    const postsFiltered = getPostByYear(store.getState().bookStore);
-    console.log(JSON.stringify(postsFiltered, null, 2));
+    const booksFiltered = getBookByYear(store.getState().bookStore);
+    console.log(JSON.stringify(booksFiltered, null, 2));
 })
 
 store.dispatch(filterByYear(2013));
@@ -28,7 +28,7 @@ store.dispatch({ type: 'CHANGE_FILTER_YEAR', payload: 2016 });
  *
  * const mapStateToProps = (state) => {
  *  return {
- *    posts: getPostByYear(state)
+ *    books: getBookByYear(state)
  *  }
  * }
  *
