@@ -28,4 +28,7 @@ Simple examples using Redux without Reactjs.
 
 ## 👉🏻 Alternatives
 
-| [01](https://github.com/ricardocanelas/redux-examples/tree/master/alternatives/01) | `yarn example05` | MobX |
+
+| - | run              | description                                       |
+| --|------------------|---------------------------------------------------|
+| [01](https://github.com/ricardocanelas/redux-examples/tree/master/alternatives/a01) | `yarn alternative01` | Using MobX |
