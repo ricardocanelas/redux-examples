@@ -6,6 +6,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "babel-eslint": "^10.0.1",
+    "mobx": "^5.6.0",
     "redux": "^4.0.1",
     "redux-saga": "^0.16.2",
     "redux-thunk": "^2.3.0",
@@ -26,6 +27,7 @@
     "example02": "node -r esm -- examples/02/index.js",
     "example03": "node -r esm -- examples/03/index.js",
     "example04": "node -r esm -- examples/04/index.js",
-    "example05": "node -r esm -- examples/05/index.js"
+    "example05": "node -r esm -- examples/05/index.js",
+    "alternative01": "node -r esm -- ./alternatives/a01/index.js"
   }
 }
