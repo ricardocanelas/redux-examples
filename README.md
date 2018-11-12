@@ -24,3 +24,8 @@ Simple examples using Redux without Reactjs.
 | [03](https://github.com/ricardocanelas/redux-examples/tree/master/examples/03) | `yarn example03` | Using redux-thunk |
 | [04](https://github.com/ricardocanelas/redux-examples/tree/master/examples/04) | `yarn example04` | Using redux-saga |
 | [05](https://github.com/ricardocanelas/redux-examples/tree/master/examples/05) | `yarn example05` | Using reselect |
+
+
+## 👉🏻 Alternatives
+
+| [01](https://github.com/ricardocanelas/redux-examples/tree/master/alternatives/01) | `yarn example05` | MobX |
