@@ -1,3 +1,5 @@
+import { ADD_BOOK, UPDATE_BOOK, DESTROY_BOOK } from '../constants/actionTypes'
+
 const initialState = {
     data: [],
     store_name: 'Mega Book Store',
@@ -6,13 +8,13 @@ const initialState = {
 
 const bookReducer = (state = initialState, action) => {
     switch (action.type) {
-        case 'ADD_BOOK':
+        case ADD_BOOK:
             return {
                 ...state,
                 data: [...state.data, action.payload],
             }
 
-        case 'UPDATE_BOOK':
+        case UPDATE_BOOK:
             return {
                 ...state,
                 data: state.data.map((book) => {
@@ -26,7 +28,7 @@ const bookReducer = (state = initialState, action) => {
                 }),
             }
 
-        case 'DESTROY_BOOK':
+        case DESTROY_BOOK:
             return {
                 ...state,
                 data: state.data.filter((book) => book.id != action.payload),
