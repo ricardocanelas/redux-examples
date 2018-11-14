@@ -5,7 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
-    "babel-eslint": "^10.0.1",
+    "cerebral": "^5.0.3",
     "mobx": "^5.6.0",
     "redux": "^4.0.1",
     "redux-saga": "^0.16.2",
@@ -13,6 +13,11 @@
     "reselect": "^4.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/register": "^7.0.0",
+    "babel-plugin-cerebral": "^1.0.1",
+    "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-prettier": "^3.0.0",
@@ -28,6 +33,7 @@
     "example03": "node -r esm -- examples/03/index.js",
     "example04": "node -r esm -- examples/04/index.js",
     "example05": "node -r esm -- examples/05/index.js",
-    "alternative01": "node -r esm -- ./alternatives/a01/index.js"
+    "alternative01": "node -r esm -- ./alternatives/a01/index.js",
+    "alternative02": "node -r esm -r @babel/register -- ./alternatives/a02/index.js"
   }
 }
