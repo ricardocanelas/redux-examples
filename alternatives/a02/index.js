@@ -4,11 +4,10 @@ import store from './store'
 const app = App(store)
 
 app.on('flush', (changes) => {
-    console.log("\n===============")
-    console.log(changes);
+    console.log('\n===============')
+    console.log(changes)
 })
 
-const fetchPosts = app.get(sequences.fetchPosts);
+const fetchPosts = app.get(sequences.fetchPosts)
 
-fetchPosts();
-
+fetchPosts()

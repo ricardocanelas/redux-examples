@@ -11,5 +11,5 @@ export default {
     },
 
     sequences,
-    providers
+    providers,
 }
