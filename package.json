@@ -16,8 +16,8 @@
     "@babel/core": "^7.1.6",
     "@babel/preset-env": "^7.1.6",
     "@babel/register": "^7.0.0",
-    "babel-plugin-cerebral": "^1.0.1",
     "babel-eslint": "^10.0.1",
+    "babel-plugin-cerebral": "^1.0.1",
     "eslint": "^5.8.0",
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-prettier": "^3.0.0",
@@ -26,7 +26,7 @@
   },
   "scripts": {
     "lint": "node_modules/.bin/eslint examples --color --ignore-path .gitignore",
-    "lint:fix": "node_modules/.bin/eslint --fix examples --color --ignore-path .gitignore .",
+    "lint:fix": "node_modules/.bin/eslint --fix examples alternatives --color --ignore-path .gitignore",
     "esm": "node -r esm",
     "example01": "node -r esm -- examples/01/index.js",
     "example02": "node -r esm -- examples/02/index.js",
