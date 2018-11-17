@@ -35,6 +35,7 @@
     "example04": "node -r esm -- examples/04/index.js",
     "example05": "node -r esm -- examples/05/index.js",
     "alternative01": "node -r esm -- ./alternatives/a01/index.js",
-    "alternative02": "node -r esm -r @babel/register -- ./alternatives/a02/index.js"
+    "alternative02": "node -r esm -r @babel/register -- ./alternatives/a02/index.js",
+    "alternative03": "node -r esm -- ./alternatives/a03/index.js"
   }
 }
