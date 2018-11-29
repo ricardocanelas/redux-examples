@@ -4,8 +4,13 @@
   "author": "Ricardo Canelas",
   "license": "MIT",
   "dependencies": {
+    "apollo-cache-inmemory": "^1.3.10",
+    "apollo-client": "^2.4.6",
+    "apollo-link-state": "^0.4.2",
     "axios": "^0.18.0",
     "cerebral": "^5.0.3",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.0",
     "mobx": "^5.6.0",
     "redux": "^4.0.1",
     "redux-saga": "^0.16.2",
@@ -36,6 +41,7 @@
     "example05": "node -r esm -- examples/05/index.js",
     "alternative01": "node -r esm -- ./alternatives/a01/index.js",
     "alternative02": "node -r esm -r @babel/register -- ./alternatives/a02/index.js",
-    "alternative03": "node -r esm -- ./alternatives/a03/index.js"
+    "alternative03": "node -r esm -- ./alternatives/a03/index.js",
+    "alternative04": "node -r esm -- ./alternatives/a04/index.js"
   }
 }
