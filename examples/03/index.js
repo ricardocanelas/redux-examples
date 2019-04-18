@@ -14,4 +14,6 @@ store.subscribe(() => {
 })
 
 // Fetch Posts
-store.dispatch(fetchPosts())
+store.dispatch(fetchPosts()).then((result) => {
+    console.log('Then:', result)
+})

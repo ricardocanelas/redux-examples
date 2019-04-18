@@ -14,12 +14,14 @@ export const fetchPosts = () => {
                     type: 'FETCH_POSTS_SUCCESS', // <----------- dispatch
                     payload: result,
                 })
+                return result
             })
             .catch((err) => {
                 dispatch({
                     type: 'FETCH_POSTS_FAILURE', // <---------- dispatch
                     payload: err.message,
                 })
+                return err
             })
     }
 }
